@@ -4,13 +4,38 @@
 <head>
     <title>Notas</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-<style>
-body{
-    background-color: aquamarine;
-    text-align: center;
-}
+    <style>
 
-</style>
+        p {
+          font-size: 18px;
+          line-height: 1.5;
+          margin: 20px;
+        }
+        body{
+          background-color: rgb(48, 247, 247);
+          text-align: center;
+        } 
+  .image-box {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 3px solid rgb(0, 0, 0);+-
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  }
+  
+  .image-box img {
+  max-width: 100%;
+  max-height: 800px;
+  border-radius: 5px;
+  }
+        .image-box img {
+   max-width: 100%;
+   max-height: 800px; 
+   border-radius: 5px;
+    }
+      </style>
 </head>
 
 <body>
@@ -27,9 +52,39 @@ body{
 
         <button onclick="calcularMedia()">Média</button><br>
         <div id="resultado"></div>
-        <img src="44.png" alt="foto do algoritmo 44"><br><br>   
-        <img src="execução.png" alt="foto do algoritmo 44"><br><br>
-        <img src="java.png" alt="foto do codigo em java"><br><br>
+     
+            <div class="image-box">
+                Algoritmo "Notas"  <br>
+    
+    var <br>
+       nota1, nota2, nota3, media: real <br>
+    inicio <br>
+       escreva("Digite a primeira nota: ") <br>
+       leia(nota1) <br>
+       escreva("Digite a segunda nota: ") <br>
+       leia(nota2) <br>
+       escreva("Digite a terceira nota: ") <br>
+       leia(nota3) <br>
+    
+       media <- (nota1 + nota2 + nota3) / 3  <br>
+    
+       se media >= 7 entao <br>
+          escreva("Aprovado! Media: ", media) <br>
+       senao se media < 5 entao <br>
+          escreva("Reprovado! Media: ", media) <br>
+       senao <br>
+          escreva("Recuperação! Media: ", media) <br>
+       fimse <br>
+    fimalgoritmo <br>
+        </div>
+        <div class="image-box">
+            <img src="algoritimo 44.png" alt="Visualg!">
+            </div>
+            <div class="image-box">
+            <img src="execução 44.png" alt="Algoritmo">
+            </div>
+             <div class="image-box" >
+             <img src="javascripit.png"></div>
     </div>
 
     <script>
@@ -52,5 +107,4 @@ body{
         }
     </script>
 </body>
-
 </html
